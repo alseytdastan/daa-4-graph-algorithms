@@ -1,0 +1,48 @@
+Dataset: large_3
+Vertices: 25
+Edges: 57
+
+=== SCC Results ===
+Number of SCCs: 18
+SCC 0: [24] (size: 1)
+SCC 1: [23] (size: 1)
+SCC 2: [21] (size: 1)
+SCC 3: [13] (size: 1)
+SCC 4: [22] (size: 1)
+SCC 5: [14] (size: 1)
+SCC 6: [19] (size: 1)
+SCC 7: [20] (size: 1)
+SCC 8: [16, 10, 12, 11, 9, 8, 18, 15] (size: 8)
+SCC 9: [7] (size: 1)
+SCC 10: [5] (size: 1)
+SCC 11: [0] (size: 1)
+SCC 12: [6] (size: 1)
+SCC 13: [1] (size: 1)
+SCC 14: [2] (size: 1)
+SCC 15: [3] (size: 1)
+SCC 16: [4] (size: 1)
+SCC 17: [17] (size: 1)
+
+SCC Metrics:
+Time: 0,056 ms
+Counters:
+  DFS_visits: 31
+  edge_explorations: 57
+  condensation_edges: 38
+
+
+=== Topological Order ===
+Component Order: [11, 13, 14, 15, 16, 17, 10, 12, 9, 8, 5, 6, 3, 7, 4, 2, 1, 0]
+
+Topo Metrics:
+Time: 0,022 ms
+Counters:
+  pops: 18
+  pushes: 18
+
+
+=== DAG Shortest Path Metrics ===
+Time: 0,008 ms
+Counters:
+  relaxations: 33
+

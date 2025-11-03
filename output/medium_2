@@ -1,0 +1,32 @@
+Dataset: medium_2
+Vertices: 18
+Edges: 50
+
+=== SCC Results ===
+Number of SCCs: 2
+SCC 0: [16, 15, 14, 9, 11, 10, 13, 12, 17] (size: 9)
+SCC 1: [8, 6, 7, 3, 5, 4, 2, 1, 0] (size: 9)
+
+SCC Metrics:
+Time: 0,022 ms
+Counters:
+  DFS_visits: 19
+  edge_explorations: 50
+  condensation_edges: 1
+
+
+=== Topological Order ===
+Component Order: [1, 0]
+
+Topo Metrics:
+Time: 0,009 ms
+Counters:
+  pops: 2
+  pushes: 2
+
+
+=== DAG Shortest Path Metrics ===
+Time: 0,008 ms
+Counters:
+  relaxations: 4
+

@@ -1,0 +1,32 @@
+Dataset: large_2
+Vertices: 40
+Edges: 237
+
+=== SCC Results ===
+Number of SCCs: 2
+SCC 0: [34, 38, 32, 37, 39, 36, 33, 35, 28, 27, 26, 29, 20, 30, 21, 31, 24, 23, 25, 22] (size: 20)
+SCC 1: [18, 10, 19, 16, 15, 13, 17, 12, 14, 4, 11, 8, 7, 9, 5, 2, 3, 1, 6, 0] (size: 20)
+
+SCC Metrics:
+Time: 0,061 ms
+Counters:
+  DFS_visits: 41
+  edge_explorations: 237
+  condensation_edges: 1
+
+
+=== Topological Order ===
+Component Order: [1, 0]
+
+Topo Metrics:
+Time: 0,027 ms
+Counters:
+  pops: 2
+  pushes: 2
+
+
+=== DAG Shortest Path Metrics ===
+Time: 0,007 ms
+Counters:
+  relaxations: 5
+

@@ -1,0 +1,46 @@
+Dataset: small_3
+Vertices: 7
+Edges: 8
+Source: 0
+Weight Model: edge
+
+=== SCC Results ===
+Number of SCCs: 5
+SCC 0: [0] (size: 1)
+SCC 1: [6, 4] (size: 2)
+SCC 2: [5, 3] (size: 2)
+SCC 3: [1] (size: 1)
+SCC 4: [2] (size: 1)
+
+SCC Metrics:
+Time: 0,017 ms
+Counters:
+  DFS_visits: 10
+  edge_explorations: 8
+  condensation_edges: 4
+
+
+=== Topological Order ===
+Component Order: [4, 3, 0, 2, 1]
+
+Topo Metrics:
+Time: 0,012 ms
+Counters:
+  pops: 5
+  pushes: 5
+
+
+=== DAG Shortest Path Results ===
+Source: 0
+Shortest distances from source 0:
+  Vertex 0: 0,00
+Reachable vertices: 1/7
+
+Critical Path (Longest):
+  Length: 0.0
+  Path: [0]
+
+=== DAG Shortest Path Metrics ===
+Time: 0,001 ms
+Counters:
+
